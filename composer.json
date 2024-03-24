@@ -1,7 +1,14 @@
 {
     "name": "michaelcozzolino/psalm-html-report",
     "description": "A Psalm plugin to generate the output in a formatted html table.",
+    "keywords": [
+        "psalm",
+        "html",
+        "report",
+        "plugin"
+    ],
     "type": "psalm-plugin",
+    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
