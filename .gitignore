@@ -6,3 +6,4 @@ vendor
 tests/_run/*
 tests/_support/_generated/*
 .idea
+report.html
