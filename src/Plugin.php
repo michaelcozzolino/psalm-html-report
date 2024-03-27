@@ -19,7 +19,9 @@ class Plugin implements PluginEntryPointInterface
         $options = getopt('', [self::REPORT_OPTION . ':']);
 
         if (array_key_exists(self::REPORT_OPTION, $options)) {
-            return;
+            // @codeCoverageIgnoreStart
+            return; // getopt cannot be tested
+            // @codeCoverageIgnoreEnd
         }
 
         if ($config !== null) {

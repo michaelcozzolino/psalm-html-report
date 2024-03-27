@@ -44,6 +44,7 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit",
+        "test-coverage": "XDEBUG_MODE=coverage vendor/bin/phpunit --coverage-html coverage",
         "psalm": "vendor/bin/psalm --no-cache",
         "psalm-debug": "PSALM_ALLOW_XDEBUG=1 XDEBUG_TRIGGER=1 vendor/bin/psalm --no-cache"
     }
